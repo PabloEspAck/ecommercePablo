@@ -1,0 +1,111 @@
+.numero-tachado {
+    text-decoration: line-through;
+    color: hsl(220, 14%, 75%);
+    font-weight: bold;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.discount-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.discount-design {
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.price-design {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.button-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.button-design {
+    background-color: hsl(223, 64%, 98%);
+    padding: 5px;
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    width: 45%;
+    text-align: center;
+    margin: auto;
+    border: none;
+}
+
+.item-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border: none;
+    background-color: hsl(223, 64%, 98%);   
+    font-weight: bold;
+}
+
+.left {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.right {
+    border-radius: 0px 5px 5px 0px;
+}
+
+@media (min-width: 1240px) {
+    .add-container {
+        width: 65%;
+        margin: auto;
+    }
+
+.price-container {
+    margin-top: 2em;
+    margin-left: 0;
+    display: block;
+}
+
+.numeroTachado {
+margin-top: 0.3em;
+}
+
+.price-design p {
+    font-size: xx-large;
+}
+
+.button-container {
+    margin: 0;
+    width: 30%;
+}
+
+.button-query {
+    width: 60%;
+}
+
+.but-container__query {
+    display: flex;
+justify-content: flex-start;
+align-items: center;
+gap: 1em;
+margin-top: 4em;
+}
+
+.button-design {
+    padding: 13px;
+}
+
+}

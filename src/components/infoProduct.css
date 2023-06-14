@@ -1,0 +1,43 @@
+.infoProduct-container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1rem;   
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.sneaker-design {
+    color: hsl(26, 100%, 55%);
+    font-weight: bold;
+    font-size: small;
+}
+
+.title-design {
+    letter-spacing: 1px;
+}
+
+.description-design {
+    font-size: medium;
+    color:  hsl(219, 9%, 45%);
+    line-height: 1.5em;
+}
+
+@media (min-width: 1240px) {
+    .infoProduct-container {
+        width: 65%;
+        margin-top: 4em;
+    }
+
+.infoProduct-container h1 {
+    font-size: xxx-large;
+}
+
+.sneaker-design {
+    font-size: larger;
+}
+
+
+
+}
